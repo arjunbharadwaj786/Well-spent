@@ -2,3 +2,13 @@
 Well spent is a Tracker cum Organizer of all your expenses and spending habits.I'm starting this project because I myself struggle with keeping reccords of expenses and end up spending more than I anticipate.
 
 
+class Expense:
+    def _init_(self,date,description,amount):
+        self.date = date
+        self.description = description
+        self.amount = amount 
+
+class Expansetracker:
+    def _init_(self):
+        self.expenses = []       
+
